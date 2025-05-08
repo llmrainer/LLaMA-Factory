@@ -2,6 +2,21 @@
   "identity": {
     "file_name": "identity.json"
   },
+    "dsmerge": {
+    "file_name": "format.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },
